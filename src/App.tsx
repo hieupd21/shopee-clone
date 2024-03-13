@@ -1,5 +1,9 @@
+import useRouteElements from './hooks/useRouteElements'
+
 function App() {
-  return <p className='text-lime-200'>Vite</p>
+  const routeElements = useRouteElements()
+
+  return <div>{routeElements}</div>
 }
 
 export default App

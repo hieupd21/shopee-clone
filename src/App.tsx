@@ -1,5 +1,5 @@
 function App() {
-  return <p>Vite</p>
+  return <p className='text-lime-200'>Vite</p>
 }
 
 export default App
